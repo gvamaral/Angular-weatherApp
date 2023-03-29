@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  padding-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.example-card {
+  max-width: 400px;
+  color: #f5f5f5;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+.weatherDesc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.loadingDiv {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
